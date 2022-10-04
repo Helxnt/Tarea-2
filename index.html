@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora Web</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    	 <div class="container">
+        <form action="" class="calculadora" name="calc">
+ 		
+ 			<div class="barra">
+        		<input type="text" id="txt" class="inputArea" placeholder="0">
+            </div>
+
+            <div class="content">
+                <div class="contenedor-1">
+                	<input type="button" class="number" value="1" onclick="document.calc.txt.value += '1'" id="button1"/>
+                    <input type="button" class="number" value="2" onclick="document.calc.txt.value += '2'" id="button2"/>
+                    <input type="button" class="number" value="3" onclick="document.calc.txt.value += '3'" id="button3"/>
+                </div>
+                <div class="contenedor-2">
+                    <input type="button" class="number" value="4" onclick="document.calc.txt.value += '4'" id="button4"/>
+                    <input type="button" class="number" value="5" onclick="document.calc.txt.value += '5'" id="button5"/>
+                    <input type="button" class="number" value="6" onclick="document.calc.txt.value += '6'" id="button6"/>
+                </div>
+                <div class="contenedor-3">
+                    <input type="button" class="number" value="7" onclick="document.calc.txt.value += '7'" id="button7"/>
+                    <input type="button" class="number" value="8" onclick="document.calc.txt.value += '8'" id="button8"/>
+                    <input type="button" class="number" value="9" onclick="document.calc.txt.value += '9'" id="button9"/>
+
+                </div>
+                <div class="contenedor-5">
+                    <input type="button" class="number" value="+" onclick="document.calc.txt.value += '+'" id="btnSumar"/>
+                    <input type="button" class="number" value="0" onclick="document.calc.txt.value += '0'" id="btn0"/>
+                    <input type="button" class="number" value="-" onclick="document.calc.txt.value += '-'" id="btnRestar"/>
+                </div>
+                <div class="contenedor-5">
+                    <input type="button" class="number" value="*" onclick="document.calc.txt.value += '*'" id="btnMultiplicar"/>
+                    <input type="button" class="number" value="/" onclick="document.calc.txt.value += '/'" id="btnDividir"/>
+                    <input type="button" class="number" value="=" onclick="btn()" id="btnResultado"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="resultado" id="content-result">
+        <div class="titulo" id="titulo">
+            <p>Historial</p>
+        </div>
+        <div id="res">
+
+        </div>
+    </div>
+    <div class="clone" id="clone"></div>
+   
+        <script type="text/javascript" src="js/calculadora.js"></script>
+    </body>
+</html>

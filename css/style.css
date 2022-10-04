@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #DADADA;
+}
+
+.container {
+    width: 405px;
+    height: 400px;
+    margin: auto;
+    background-color: #eeeeee;
+    border-radius: 8px;
+}
+
+.container .barra input {
+    width: 342px;
+    height: 40px;
+    border: solid;
+    border-color: #000;
+    border-radius: 9px;
+    font-size: 20px;
+    margin: 10px 25px;
+}
+.container .content .contenedor-1{
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DADADA;
+    margin-top: 40px;
+}
+
+.container .content .contenedor-1 .number {
+    width: 70px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 100px;
+    color: black;
+    font-size: 20px;
+   }
+
+.container .content .contenedor-1 .number:hover {
+    background-color:#52BE80;
+    cursor: pointer;
+}
+.container .content .contenedor-2 {
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+}
+
+.container .content .contenedor-2 .number {
+    width: 70px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 100px;
+    color: black;
+    font-size: 20px;
+   }
+
+.container .content .contenedor-2 .number:hover {
+    background-color:#52BE80;
+}
+
+.container .content .contenedor-3 {
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+}
+
+.container .content .contenedor-3 .number {
+    width: 70px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 100px;
+    color: black;
+    font-size: 20px;
+ }
+
+.container .content .contenedor-3 .number:hover {
+    background-color:#52BE80;
+}
+.container .content .contenedor-4 {
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+}
+
+.container .content .contenedor-4 .number {
+    width: 70px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 100px;
+    color: black;
+    font-size: 20px;
+  }
+
+.container .content .contenedor-4 .number:hover {
+    background-color:#52BE80;
+}
+.container .content .contenedor-5 {
+    width: 400px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+}
+
+.container .content .contenedor-5 .number {
+    width: 70px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#DADADA;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    border-radius: 100px;
+    color: black;
+    font-size: 20px;
+    }
+
+.container .content .contenedor-5 .number:hover {
+    background-color:#52BE80;
+}
+
+
+.submit {
+    margin-left: 220px;
+    border: none;
+    background-color: white;
+}
+
+.submit:hover {
+    background-color: #7DCEA0;
+    color: white;
+}
+
+.resultado .titulo {
+    width: 500px;
+    padding: 6px;
+    background-color: #52BE80;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.resultado .titulo p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+   } 
+
+.resultado {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.resultado .content {
+    width: 380px;
+    height: 40px;
+}
+
+.resultado .content .result {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 9px;
+}
+
+.resultado .content .result .resultado-final{
+    margin-top: 5px;
+    margin-left: 9px;
+    display: inline-block;
+    font-size: 20px;
+   }
